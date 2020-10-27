@@ -25,6 +25,6 @@ public class StudentController {
     public void addStudent(@RequestBody Student stu) {
         System.out.println(stu.getName());
         int id = DataProvider.students.size();
-        DataProvider.students.add(new Student(id, stu.getName()));
+        DataProvider.students.add(new Student(id+1, stu.getName()));
     }
 }
