@@ -1,5 +1,6 @@
 package com.thoughtworks.capability.gtb.entrancequiz.model;
 
+//TODO GTB-工程实践: * 推荐用 lombok
 public class Student {
     int id;
     String name;
